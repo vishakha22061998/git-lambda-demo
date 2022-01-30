@@ -17,4 +17,4 @@ phases:
 artifacts:
   files:
   - CICDLambda-0.0.1-SNAPSHOT.jar
-  - .ebextensions/**/*
+  #- .ebextensions/**/*
