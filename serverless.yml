@@ -2,13 +2,13 @@ Globals:
   Function:
     Runtime: java coretto
     Timeout: 180
-    Handler: com.lambda1.CICDLambda::handleRequest
-    Environment:
+       Environment:
       Variables:
         Var1: "Hello"
 
 Resources:
   CICDLambda:
+    Handler: handler.CICDLambda
     Type: AWS::Serverless::Function
     Properties:
       Role: lambda_role
