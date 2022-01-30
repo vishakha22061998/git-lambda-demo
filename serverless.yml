@@ -2,7 +2,7 @@ Globals:
   Function:
     Runtime: java coretto
     Timeout: 180
-    Handler: com.lambda1.LambdaDemo1::handleRequest
+    Handler: com.lambda1.CICDLambda::handleRequest
     Environment:
       Variables:
         Var1: "Hello"
