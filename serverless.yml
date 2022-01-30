@@ -11,7 +11,7 @@ Resources:
     Handler: handler.CICDLambda
     Type: AWS::Serverless::Function
     Properties:
-      Role: lambda_role
+      Role: Lambda_role
       Runtime: Java 8 on Amazon Linux 1
       MemorySize: 3 GB
       AutoPublishAlias: !Ref Stage
