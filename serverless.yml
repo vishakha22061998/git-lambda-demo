@@ -7,7 +7,7 @@
 
 Resources:
   CICDLambda:
-    Handler: handler.CICDLambda
+    Handler: com.cicddemo.CICDLambda::handleRequest
     Type: AWS::Serverless::Function
     Properties:
       Role: Lambda_role
