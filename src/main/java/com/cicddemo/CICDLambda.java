@@ -8,7 +8,7 @@ public class CICDLambda implements RequestHandler<Object, String>
 
 	public String handleRequest(Object input, Context context) {
 		context.getLogger().log("Input:" + input);
-		return "Hello from CICD lambda!.......";
+		return ".........Hello from CICD lambda!.......";
 	}
 	
 }
