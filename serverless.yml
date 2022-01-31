@@ -1,24 +1,23 @@
-Globals:
-  Function:
-    Runtime: java coretto
-    Timeout: 180
-       Environment:
-      Variables:
-        Var1: "Hello"
+# Function:
+    #Runtime: java coretto
+    #Timeout: 180
+      # Environment:
+     # Variables:
+       # Var1: "Hello"
 
-Resources:
-  CICDLambda:
-    Handler: handler.CICDLambda
-    Type: AWS::Serverless::Function
-    Properties:
-      Role: Lambda_role
-      Runtime: Java 8 on Amazon Linux 1
-      MemorySize: 3 GB
-      AutoPublishAlias: !Ref Stage
-      DeploymentPreference:
-       Type: AllAtOnce
-      Environment:
-        Variables:
-          MESSAGE: "Hello From Lambda"
-          TEST: "Demo"
+#Resources:
+  #CICDLambda:
+    #Handler: handler.CICDLambda
+    #Type: AWS::Serverless::Function
+    #Properties:
+      #Role: Lambda_role
+     # Runtime: Java 8 on Amazon Linux 1
+      #MemorySize: 3 GB
+      #AutoPublishAlias: !Ref Stage
+      #DeploymentPreference:
+       #Type: AllAtOnce
+     # Environment:
+        #Variables:
+         # MESSAGE: "Hello From Lambda"
+          #TEST: "Demo"
       
