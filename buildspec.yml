@@ -14,7 +14,7 @@ phases:
     commands:
     - echo Build completed
     - mvn package
-    - mv target/cicddemo-0.0.1-SNAPSHOT.jar cicddemo-0.0.1-SNAPSHOT.jar
+   # - mv target/cicddemo-0.0.1-SNAPSHOT.jar cicddemo-0.0.1-SNAPSHOT.jar
 artifacts:
   files:
   - target/cicddemo-0.0.1-SNAPSHOT.jar
