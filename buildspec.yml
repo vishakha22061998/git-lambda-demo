@@ -9,15 +9,7 @@ phases:
   build:
     commands:
     - echo Build started
-    
-   Globals:
-    Function:
-    Runtime: java coretto
-    Timeout: 180
-       Environment:
-      Variables:
-        Var1: "Hello"
-
+   
 Resources:
   CICDLambda:
     Handler: handler.CICDLambda
@@ -25,6 +17,7 @@ Resources:
     Properties:
       Role: Lambda_role
       Runtime: Java 8 on Amazon Linux 1
+      Timeout: 180
       MemorySize: 3 GB
       AutoPublishAlias: !Ref Stage
       DeploymentPreference:
