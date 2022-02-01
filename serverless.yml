@@ -1,6 +1,6 @@
  Function:
    Runtime: java coretto
-    Timeout: 180
+    Timeout: 240
        Environment:
       Variables:
         Var1: "Hello"
