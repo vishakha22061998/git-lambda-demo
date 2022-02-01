@@ -18,5 +18,5 @@ Resources:
        Type: AllAtOnce
       Environment:
         Variables:
-          MESSAGE: "Hello From Lambda"
+          MESSAGE: "Hello From  AWS Lambda"
           TEST: "Demo"
